@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C898DFC526212408007B00D2 /* ChoredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC426212408007B00D2 /* ChoredoApp.swift */; };
-		C898DFC726212408007B00D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC626212408007B00D2 /* ContentView.swift */; };
+		C898DFC526212408007B00D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC426212408007B00D2 /* AppDelegate.swift */; };
+		C898DFC726212408007B00D2 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC626212408007B00D2 /* ProductViewController.swift */; };
 		C898DFC926212408007B00D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFC826212408007B00D2 /* Assets.xcassets */; };
-		C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFCB26212408007B00D2 /* Preview Assets.xcassets */; };
-		C898DFD726212408007B00D2 /* ChoredoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFD626212408007B00D2 /* ChoredoTests.swift */; };
+		C898DFD726212408007B00D2 /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFD626212408007B00D2 /* AppDelegateTests.swift */; };
 		C898DFE226212408007B00D2 /* ChoredoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFE126212408007B00D2 /* ChoredoUITests.swift */; };
 		C8B9E2392621CE2900499309 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E2382621CE2900499309 /* Launch Screen.storyboard */; };
+		C8B9E2442621EA8600499309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9E2432621EA8600499309 /* ViewController.swift */; };
+		C8B9E24C2621EACD00499309 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9E24B2621EACD00499309 /* VisionViewController.swift */; };
+		C8B9E2552621ED9300499309 /* ProductCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E2542621ED9300499309 /* ProductCatalog.plist */; };
+		C8B9E25B2621EDDD00499309 /* clean.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E2592621EDDD00499309 /* clean.png */; };
+		C8B9E25C2621EDDD00499309 /* messy.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E25A2621EDDD00499309 /* messy.png */; };
+		C8B9E2612621EE1600499309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E2602621EE1600499309 /* Main.storyboard */; };
+		C8B9E26F2621F8CD00499309 /* MessyRoom.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C8B9E26E2621F8CD00499309 /* MessyRoom.mlmodel */; };
+		C8B9E2852622109F00499309 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B9E2842622109F00499309 /* CoreML.framework */; };
+		C8B9E287262210A900499309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B9E286262210A800499309 /* UIKit.framework */; };
+		C8B9E289262210B100499309 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B9E288262210B100499309 /* Vision.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +44,27 @@
 
 /* Begin PBXFileReference section */
 		C898DFC126212408007B00D2 /* Choredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C898DFC426212408007B00D2 /* ChoredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoApp.swift; sourceTree = "<group>"; };
-		C898DFC626212408007B00D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C898DFC426212408007B00D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C898DFC626212408007B00D2 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		C898DFC826212408007B00D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C898DFCB26212408007B00D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C898DFCD26212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C898DFD226212408007B00D2 /* ChoredoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoredoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C898DFD626212408007B00D2 /* ChoredoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoTests.swift; sourceTree = "<group>"; };
+		C898DFD626212408007B00D2 /* AppDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		C898DFD826212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C898DFDD26212408007B00D2 /* ChoredoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoredoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C898DFE126212408007B00D2 /* ChoredoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoUITests.swift; sourceTree = "<group>"; };
 		C898DFE326212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8B9E2382621CE2900499309 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C8B9E2432621EA8600499309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8B9E24B2621EACD00499309 /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		C8B9E2542621ED9300499309 /* ProductCatalog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductCatalog.plist; sourceTree = "<group>"; };
+		C8B9E2592621EDDD00499309 /* clean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clean.png; sourceTree = "<group>"; };
+		C8B9E25A2621EDDD00499309 /* messy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messy.png; sourceTree = "<group>"; };
+		C8B9E2602621EE1600499309 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C8B9E26E2621F8CD00499309 /* MessyRoom.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MessyRoom.mlmodel; sourceTree = "<group>"; };
+		C8B9E2842622109F00499309 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		C8B9E286262210A800499309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8B9E288262210B100499309 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B9E2852622109F00499309 /* CoreML.framework in Frameworks */,
+				C8B9E289262210B100499309 /* Vision.framework in Frameworks */,
+				C8B9E287262210A900499309 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,7 @@
 				C898DFD526212408007B00D2 /* ChoredoTests */,
 				C898DFE026212408007B00D2 /* ChoredoUITests */,
 				C898DFC226212408007B00D2 /* Products */,
+				C8B9E2832622109F00499309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,28 +119,24 @@
 		C898DFC326212408007B00D2 /* Choredo */ = {
 			isa = PBXGroup;
 			children = (
-				C898DFC426212408007B00D2 /* ChoredoApp.swift */,
-				C898DFC626212408007B00D2 /* ContentView.swift */,
-				C898DFC826212408007B00D2 /* Assets.xcassets */,
+				C8B9E26E2621F8CD00499309 /* MessyRoom.mlmodel */,
 				C898DFCD26212408007B00D2 /* Info.plist */,
-				C898DFCA26212408007B00D2 /* Preview Content */,
 				C8B9E2382621CE2900499309 /* Launch Screen.storyboard */,
+				C8B9E2602621EE1600499309 /* Main.storyboard */,
+				C898DFC426212408007B00D2 /* AppDelegate.swift */,
+				C898DFC626212408007B00D2 /* ProductViewController.swift */,
+				C8B9E2432621EA8600499309 /* ViewController.swift */,
+				C8B9E24B2621EACD00499309 /* VisionViewController.swift */,
+				C898DFC826212408007B00D2 /* Assets.xcassets */,
+				C8B9E2532621ED5600499309 /* Product Resources */,
 			);
 			path = Choredo;
-			sourceTree = "<group>";
-		};
-		C898DFCA26212408007B00D2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C898DFCB26212408007B00D2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		C898DFD526212408007B00D2 /* ChoredoTests */ = {
 			isa = PBXGroup;
 			children = (
-				C898DFD626212408007B00D2 /* ChoredoTests.swift */,
+				C898DFD626212408007B00D2 /* AppDelegateTests.swift */,
 				C898DFD826212408007B00D2 /* Info.plist */,
 			);
 			path = ChoredoTests;
@@ -131,6 +149,26 @@
 				C898DFE326212408007B00D2 /* Info.plist */,
 			);
 			path = ChoredoUITests;
+			sourceTree = "<group>";
+		};
+		C8B9E2532621ED5600499309 /* Product Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9E2542621ED9300499309 /* ProductCatalog.plist */,
+				C8B9E2592621EDDD00499309 /* clean.png */,
+				C8B9E25A2621EDDD00499309 /* messy.png */,
+			);
+			path = "Product Resources";
+			sourceTree = "<group>";
+		};
+		C8B9E2832622109F00499309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9E288262210B100499309 /* Vision.framework */,
+				C8B9E286262210A800499309 /* UIKit.framework */,
+				C8B9E2842622109F00499309 /* CoreML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B9E2612621EE1600499309 /* Main.storyboard in Resources */,
+				C8B9E25B2621EDDD00499309 /* clean.png in Resources */,
 				C8B9E2392621CE2900499309 /* Launch Screen.storyboard in Resources */,
-				C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */,
+				C8B9E25C2621EDDD00499309 /* messy.png in Resources */,
+				C8B9E2552621ED9300499309 /* ProductCatalog.plist in Resources */,
 				C898DFC926212408007B00D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C898DFC726212408007B00D2 /* ContentView.swift in Sources */,
-				C898DFC526212408007B00D2 /* ChoredoApp.swift in Sources */,
+				C8B9E24C2621EACD00499309 /* VisionViewController.swift in Sources */,
+				C8B9E26F2621F8CD00499309 /* MessyRoom.mlmodel in Sources */,
+				C898DFC726212408007B00D2 /* ProductViewController.swift in Sources */,
+				C898DFC526212408007B00D2 /* AppDelegate.swift in Sources */,
+				C8B9E2442621EA8600499309 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C898DFD726212408007B00D2 /* ChoredoTests.swift in Sources */,
+				C898DFD726212408007B00D2 /* AppDelegateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +466,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = None;
 				DEVELOPMENT_ASSET_PATHS = "\"Choredo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D34UY2AHZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Choredo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -443,7 +489,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = None;
 				DEVELOPMENT_ASSET_PATHS = "\"Choredo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D34UY2AHZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Choredo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
