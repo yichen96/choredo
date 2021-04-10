@@ -13,6 +13,7 @@
 		C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFCB26212408007B00D2 /* Preview Assets.xcassets */; };
 		C898DFD726212408007B00D2 /* ChoredoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFD626212408007B00D2 /* ChoredoTests.swift */; };
 		C898DFE226212408007B00D2 /* ChoredoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFE126212408007B00D2 /* ChoredoUITests.swift */; };
+		C8B9E2392621CE2900499309 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B9E2382621CE2900499309 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C898DFDD26212408007B00D2 /* ChoredoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoredoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C898DFE126212408007B00D2 /* ChoredoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoUITests.swift; sourceTree = "<group>"; };
 		C898DFE326212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B9E2382621CE2900499309 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C898DFC826212408007B00D2 /* Assets.xcassets */,
 				C898DFCD26212408007B00D2 /* Info.plist */,
 				C898DFCA26212408007B00D2 /* Preview Content */,
+				C8B9E2382621CE2900499309 /* Launch Screen.storyboard */,
 			);
 			path = Choredo;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B9E2392621CE2900499309 /* Launch Screen.storyboard in Resources */,
 				C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */,
 				C898DFC926212408007B00D2 /* Assets.xcassets in Resources */,
 			);
