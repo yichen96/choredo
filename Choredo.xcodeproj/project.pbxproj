@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C898DFC526212408007B00D2 /* ChoredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC426212408007B00D2 /* ChoredoApp.swift */; };
+		C898DFC726212408007B00D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC626212408007B00D2 /* ContentView.swift */; };
+		C898DFC926212408007B00D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFC826212408007B00D2 /* Assets.xcassets */; };
+		C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFCB26212408007B00D2 /* Preview Assets.xcassets */; };
+		C898DFD726212408007B00D2 /* ChoredoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFD626212408007B00D2 /* ChoredoTests.swift */; };
+		C898DFE226212408007B00D2 /* ChoredoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFE126212408007B00D2 /* ChoredoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C898DFD326212408007B00D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C898DFB926212408007B00D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C898DFC026212408007B00D2;
+			remoteInfo = Choredo;
+		};
+		C898DFDE26212408007B00D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C898DFB926212408007B00D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C898DFC026212408007B00D2;
+			remoteInfo = Choredo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C898DFC126212408007B00D2 /* Choredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C898DFC426212408007B00D2 /* ChoredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoApp.swift; sourceTree = "<group>"; };
+		C898DFC626212408007B00D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C898DFC826212408007B00D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C898DFCB26212408007B00D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C898DFCD26212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C898DFD226212408007B00D2 /* ChoredoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoredoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C898DFD626212408007B00D2 /* ChoredoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoTests.swift; sourceTree = "<group>"; };
+		C898DFD826212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C898DFDD26212408007B00D2 /* ChoredoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoredoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C898DFE126212408007B00D2 /* ChoredoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoredoUITests.swift; sourceTree = "<group>"; };
+		C898DFE326212408007B00D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C898DFBE26212408007B00D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFCF26212408007B00D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFDA26212408007B00D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C898DFB826212408007B00D2 = {
+			isa = PBXGroup;
+			children = (
+				C898DFC326212408007B00D2 /* Choredo */,
+				C898DFD526212408007B00D2 /* ChoredoTests */,
+				C898DFE026212408007B00D2 /* ChoredoUITests */,
+				C898DFC226212408007B00D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C898DFC226212408007B00D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C898DFC126212408007B00D2 /* Choredo.app */,
+				C898DFD226212408007B00D2 /* ChoredoTests.xctest */,
+				C898DFDD26212408007B00D2 /* ChoredoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C898DFC326212408007B00D2 /* Choredo */ = {
+			isa = PBXGroup;
+			children = (
+				C898DFC426212408007B00D2 /* ChoredoApp.swift */,
+				C898DFC626212408007B00D2 /* ContentView.swift */,
+				C898DFC826212408007B00D2 /* Assets.xcassets */,
+				C898DFCD26212408007B00D2 /* Info.plist */,
+				C898DFCA26212408007B00D2 /* Preview Content */,
+			);
+			path = Choredo;
+			sourceTree = "<group>";
+		};
+		C898DFCA26212408007B00D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C898DFCB26212408007B00D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C898DFD526212408007B00D2 /* ChoredoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C898DFD626212408007B00D2 /* ChoredoTests.swift */,
+				C898DFD826212408007B00D2 /* Info.plist */,
+			);
+			path = ChoredoTests;
+			sourceTree = "<group>";
+		};
+		C898DFE026212408007B00D2 /* ChoredoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C898DFE126212408007B00D2 /* ChoredoUITests.swift */,
+				C898DFE326212408007B00D2 /* Info.plist */,
+			);
+			path = ChoredoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C898DFC026212408007B00D2 /* Choredo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C898DFE626212408007B00D2 /* Build configuration list for PBXNativeTarget "Choredo" */;
+			buildPhases = (
+				C898DFBD26212408007B00D2 /* Sources */,
+				C898DFBE26212408007B00D2 /* Frameworks */,
+				C898DFBF26212408007B00D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Choredo;
+			productName = Choredo;
+			productReference = C898DFC126212408007B00D2 /* Choredo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C898DFD126212408007B00D2 /* ChoredoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C898DFE926212408007B00D2 /* Build configuration list for PBXNativeTarget "ChoredoTests" */;
+			buildPhases = (
+				C898DFCE26212408007B00D2 /* Sources */,
+				C898DFCF26212408007B00D2 /* Frameworks */,
+				C898DFD026212408007B00D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C898DFD426212408007B00D2 /* PBXTargetDependency */,
+			);
+			name = ChoredoTests;
+			productName = ChoredoTests;
+			productReference = C898DFD226212408007B00D2 /* ChoredoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C898DFDC26212408007B00D2 /* ChoredoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C898DFEC26212408007B00D2 /* Build configuration list for PBXNativeTarget "ChoredoUITests" */;
+			buildPhases = (
+				C898DFD926212408007B00D2 /* Sources */,
+				C898DFDA26212408007B00D2 /* Frameworks */,
+				C898DFDB26212408007B00D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C898DFDF26212408007B00D2 /* PBXTargetDependency */,
+			);
+			name = ChoredoUITests;
+			productName = ChoredoUITests;
+			productReference = C898DFDD26212408007B00D2 /* ChoredoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C898DFB926212408007B00D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C898DFC026212408007B00D2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C898DFD126212408007B00D2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C898DFC026212408007B00D2;
+					};
+					C898DFDC26212408007B00D2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C898DFC026212408007B00D2;
+					};
+				};
+			};
+			buildConfigurationList = C898DFBC26212408007B00D2 /* Build configuration list for PBXProject "Choredo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C898DFB826212408007B00D2;
+			productRefGroup = C898DFC226212408007B00D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C898DFC026212408007B00D2 /* Choredo */,
+				C898DFD126212408007B00D2 /* ChoredoTests */,
+				C898DFDC26212408007B00D2 /* ChoredoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C898DFBF26212408007B00D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C898DFCC26212408007B00D2 /* Preview Assets.xcassets in Resources */,
+				C898DFC926212408007B00D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFD026212408007B00D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFDB26212408007B00D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C898DFBD26212408007B00D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C898DFC726212408007B00D2 /* ContentView.swift in Sources */,
+				C898DFC526212408007B00D2 /* ChoredoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFCE26212408007B00D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C898DFD726212408007B00D2 /* ChoredoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C898DFD926212408007B00D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C898DFE226212408007B00D2 /* ChoredoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C898DFD426212408007B00D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C898DFC026212408007B00D2 /* Choredo */;
+			targetProxy = C898DFD326212408007B00D2 /* PBXContainerItemProxy */;
+		};
+		C898DFDF26212408007B00D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C898DFC026212408007B00D2 /* Choredo */;
+			targetProxy = C898DFDE26212408007B00D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C898DFE426212408007B00D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C898DFE526212408007B00D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C898DFE726212408007B00D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Choredo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Choredo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.Choredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C898DFE826212408007B00D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Choredo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Choredo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.Choredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C898DFEA26212408007B00D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoredoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.ChoredoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choredo.app/Choredo";
+			};
+			name = Debug;
+		};
+		C898DFEB26212408007B00D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoredoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.ChoredoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choredo.app/Choredo";
+			};
+			name = Release;
+		};
+		C898DFED26212408007B00D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoredoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.ChoredoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Choredo;
+			};
+			name = Debug;
+		};
+		C898DFEE26212408007B00D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoredoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = infinitedraft.ChoredoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Choredo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C898DFBC26212408007B00D2 /* Build configuration list for PBXProject "Choredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C898DFE426212408007B00D2 /* Debug */,
+				C898DFE526212408007B00D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C898DFE626212408007B00D2 /* Build configuration list for PBXNativeTarget "Choredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C898DFE726212408007B00D2 /* Debug */,
+				C898DFE826212408007B00D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C898DFE926212408007B00D2 /* Build configuration list for PBXNativeTarget "ChoredoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C898DFEA26212408007B00D2 /* Debug */,
+				C898DFEB26212408007B00D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C898DFEC26212408007B00D2 /* Build configuration list for PBXNativeTarget "ChoredoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C898DFED26212408007B00D2 /* Debug */,
+				C898DFEE26212408007B00D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C898DFB926212408007B00D2 /* Project object */;
+}
