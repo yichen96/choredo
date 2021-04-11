@@ -20,7 +20,7 @@ You can use Xcode to install Dash on your iOS device using just your Apple ID.
 All you need to do is:
 
 1. Install [Xcode](https://developer.apple.com/xcode/download/)
-2. Download the [Dash for iOS Source Code](https://github.com/yichen96/choredo/releases/latest) or `git clone https://github.com/yichen96/choredo.git`
+2. Download the [Source Code](https://github.com/yichen96/choredo/releases/latest) or `git clone https://github.com/yichen96/choredo.git`
 3. Open "Choredo.xcodeproj" in Xcode
 4. Go to Xcode's Preferences > Accounts and add your Apple ID
 5. In Xcode's sidebar select "Choredo" and go to General > Identity. Append a word at the end of the *Bundle Identifier* e.g. infinitedraft.choredo*.name* so it's unique. Select your Apple ID in Signing > Team
