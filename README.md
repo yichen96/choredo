@@ -31,6 +31,3 @@ All you need to do is:
 
 [Contact me](https://twitter.com/yichen_96) if you need help.
 
-## Contribution Guidelines
-
-I am busy most of the times and will not be on github frequently, please drop me an [email](mailto:liuyichenpanda@gmail.com) for bug fix, feature added and tests added!
