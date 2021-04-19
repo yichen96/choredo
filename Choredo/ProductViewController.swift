@@ -35,10 +35,17 @@ class ProductViewController: UIViewController {
             guard productCatalog[productID] != nil else {
                 return
             }
-            label.text = productCatalog[productID]?["label"] as? String
+            label.text = (productCatalog[productID]?["label"] as? String)?.localized()
             if let productImage = UIImage(named: productID + ".png") {
                 productPhoto.image = productImage
             }
         }
+    }
+}
+
+extension String {
+    // return string defined in Localizable.string file, if key not found, return base language
+    func localized() -> String {
+        return NSLocalizedString(self, tableName: "Localizable", bundle: .main, value: self, comment: self)
     }
 }

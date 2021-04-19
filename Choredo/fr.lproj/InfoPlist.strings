@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Choredo
+
+  Created by Yichen Liu on 11/04/2021.
+  
+*/
+"CFBundleDisplayName" = "Choredo";
+"CFBundleName" = "Choredo";

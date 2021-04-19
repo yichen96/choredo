@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82785482623A34B002F0506 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C827854A2623A34B002F0506 /* Localizable.strings */; };
+		C82785572623AAFF002F0506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C82785592623AAFF002F0506 /* InfoPlist.strings */; };
 		C898DFC526212408007B00D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC426212408007B00D2 /* AppDelegate.swift */; };
 		C898DFC726212408007B00D2 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C898DFC626212408007B00D2 /* ProductViewController.swift */; };
 		C898DFC926212408007B00D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C898DFC826212408007B00D2 /* Assets.xcassets */; };
@@ -43,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C82785492623A34B002F0506 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C827854E2623A355002F0506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C82785582623AAFF002F0506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C827855D2623AB04002F0506 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C827855E2623AC00002F0506 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C827855F2623AC00002F0506 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		C898DFC126212408007B00D2 /* Choredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C898DFC426212408007B00D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C898DFC626212408007B00D2 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +137,8 @@
 				C8B9E24B2621EACD00499309 /* VisionViewController.swift */,
 				C898DFC826212408007B00D2 /* Assets.xcassets */,
 				C8B9E2532621ED5600499309 /* Product Resources */,
+				C827854A2623A34B002F0506 /* Localizable.strings */,
+				C82785592623AAFF002F0506 /* InfoPlist.strings */,
 			);
 			path = Choredo;
 			sourceTree = "<group>";
@@ -256,6 +266,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				"zh-Hans",
 			);
 			mainGroup = C898DFB826212408007B00D2;
 			productRefGroup = C898DFC226212408007B00D2 /* Products */;
@@ -275,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B9E2612621EE1600499309 /* Main.storyboard in Resources */,
+				C82785572623AAFF002F0506 /* InfoPlist.strings in Resources */,
 				C8B9E25B2621EDDD00499309 /* clean.png in Resources */,
 				C8B9E2392621CE2900499309 /* Launch Screen.storyboard in Resources */,
+				C82785482623A34B002F0506 /* Localizable.strings in Resources */,
 				C8B9E25C2621EDDD00499309 /* messy.png in Resources */,
 				C8B9E2552621ED9300499309 /* ProductCatalog.plist in Resources */,
 				C898DFC926212408007B00D2 /* Assets.xcassets in Resources */,
@@ -342,6 +356,29 @@
 			targetProxy = C898DFDE26212408007B00D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C827854A2623A34B002F0506 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82785492623A34B002F0506 /* fr */,
+				C827854E2623A355002F0506 /* en */,
+				C827855E2623AC00002F0506 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C82785592623AAFF002F0506 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82785582623AAFF002F0506 /* en */,
+				C827855D2623AB04002F0506 /* fr */,
+				C827855F2623AC00002F0506 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C898DFE426212408007B00D2 /* Debug */ = {
