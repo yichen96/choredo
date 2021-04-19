@@ -8,8 +8,10 @@ Women are usually tasked to manage the household work and do half of the chores,
 ### Core features:
 
 - Real time room cleanliness classification
+<!--- 
 - Suggest possible house chores to do given the scene
 - Show calories related to each chore
+--->
 
 ## Installation Instructions
 
@@ -31,3 +33,6 @@ All you need to do is:
 
 [Contact me](https://twitter.com/yichen_96) if you need help.
 
+## Support the Project
+
+<a href="https://www.buymeacoffee.com/yichen96" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
